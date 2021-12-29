@@ -1,0 +1,19 @@
+{
+    "name": "marcus_intalex_sun_and_bass",
+    "symbol": "",
+    "image": "1.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "1.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "3XPfxrNruz7o7ZcxWwHKzCacD3tP2Pc8DbUTd1XhKiUf",
+          "share": 100
+        }
+      ]
+    }
+  }

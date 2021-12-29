@@ -1,0 +1,19 @@
+{
+    "name": "second_nature",
+    "symbol": "",
+    "image": "0.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "0.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "3XPfxrNruz7o7ZcxWwHKzCacD3tP2Pc8DbUTd1XhKiUf",
+          "share": 100
+        }
+      ]
+    }
+  }
