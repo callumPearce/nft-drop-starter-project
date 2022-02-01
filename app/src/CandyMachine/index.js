@@ -35,7 +35,7 @@ const CandyMachine = ({ walletAddress }) => {
   const [isMinting, setIsMinting] = useState(false);
   const [isLoadingMints, setIsLoadingMints] = useState(false);
 
-  // Actions
+  // Get a provider allows us to talk to solana devnet blockchain
   const getProvider = () => {
     const rpcHost = process.env.REACT_APP_SOLANA_RPC_HOST;
     const connection = new Connection(rpcHost);
@@ -184,7 +184,7 @@ const CandyMachine = ({ walletAddress }) => {
 
   const getTokenWallet = async (wallet, mint) => {
     return (
-      await web3.PublicKey.findProgramAddress(
+      await web3.PublicKey.findProgramAddress(Program
         [wallet.toBuffer(), TOKEN_PROGRAM_ID.toBuffer(), mint.toBuffer()],
         SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID
       )
